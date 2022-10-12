@@ -1,0 +1,555 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+@font-face {
+    font-family: Acquire;
+    src: url(./fonts/aquire/AquireLight-YzE0o.otf);
+}
+@font-face {
+    font-family: AcquireLight;
+    src: url(./fonts/aquire/Aquire-BW0ox.otf);
+}
+@font-face {
+    font-family: AcquireBold;
+    src: url(./fonts/aquire/AquireBold-8Ma60.otf);
+}
+
+@font-face {
+    font-family: Trench;
+    src: url(./fonts/trench/trench100.ttf);
+}
+
+@font-face {
+    font-family: Space;
+    src: url(./fonts/space-grotesk.bold.otf);
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.logo h1 {
+    color: white;
+    position: absolute;
+    top: 3.4655172413793105vh;
+    left: 7.822516556291391vw;
+    font-size: 1.47505518763797vw;
+    font-family: 'Space Grotesk', sans-serif;
+    letter-spacing: 0.003679175864606328vw;
+}
+
+.logo img {
+    top: 5.552507374631vh;
+    left: 3.6vw;
+    width: 14.679175864606328vw;
+    height: 7.899705014749262vh;
+    position: absolute;
+}
+
+.image-bg {
+    height: 551vh;
+    width: 100vw;
+    /* filter: blur(2px);
+    -webkit-filter: blur(1px); */
+}
+
+.overlay {
+    position: absolute;
+    z-index: 300;
+    width: 100vw;
+    height: 550vh;
+    background-color: black;
+    top: 0;
+    opacity: 0;
+}
+
+.header {
+    position: absolute;
+    height: 21.4749262536873156vh;
+    width: 100vw;
+    top: 0.15220700152207vh;
+    z-index: 600;
+}
+
+.inventory {
+    width: 14vw;
+    height: 14.220700152207002vh;
+    padding: 0;
+    margin: 0;
+    background-image: url(./Images/hexagon\ -\ before\ hover.png);
+    background-position: center;
+    background-origin: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    right: 2.9282576866764276vw;
+    top: 3.0441400304414vh;
+    position: fixed;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4641288433382138vw;
+    font-family: Acquire;
+    z-index: 100;
+}
+
+.inventory:hover {
+    background-image: url(./Images/Hexagon\ -\ after\ hover.png);
+}
+
+.bodyContainer {
+    position: relative;
+    z-index: 100;
+}
+
+.herotext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#Hero {
+    position: absolute;
+    top:30vh;
+    /* left: 25.509197939661515vw; */
+    text-align: center;
+    font-size: 10.537527593818984vw;
+    font-family: AcquireBold;
+    z-index: 500;
+    letter-spacing: -0.7358351729212657vw;
+    width: 60vw;
+    height: 60vh;
+    /* transform: scale(1); */
+}
+.herotext h2{
+    position: absolute;
+    top:41vh;
+    left: 22.39587932303164vw;
+    text-align: center;
+    font-size: 11.037527593818984vw;
+    font-family: AcquireBold;
+    z-index: 500;
+    /* letter-spacing: 1.4716703458425313vw; */
+}
+
+.aboutus {
+    position: absolute;
+    top: 117vh;
+    left: 2.501610541727673vw;
+    font-size: 2vw;
+    font-family: AcquireLight;
+    z-index: 500;
+    text-align: left;
+}
+
+.aboutus h1 {
+    letter-spacing: 0.6711409395973155vw;
+}
+
+.structure {
+    position: absolute;
+    top: 200vh;
+    right: 3.356375838926174vw;
+    font-size: 2.208724832214765vw;
+    font-family: AcquireLight;
+    z-index: 500;
+    text-align: right;
+}
+
+.structure h1 {
+    letter-spacing: -0.1369127516778524vw;
+}
+
+.supply {
+    position: absolute;
+    top: 291.5vh;
+    left: 5.5vw;
+    font-size: 2vw;
+    text-align: left;
+    font-family: AcquireLight;
+    z-index: 500;
+}
+
+.supply h1 {
+    letter-spacing: 1.342281879194631vw;
+}
+
+.mintprice {
+    position: absolute;
+    top: 356vh;
+    right: 2.69127516778524vw;
+    font-size: 4.563758389261745vw;
+    font-family: AcquireLight;
+    z-index: 500;
+    text-align: right;
+}
+
+.mintprice h1 {
+    letter-spacing: 0.40268456375838924vw;
+    font-size: 4.409395973154362vw;
+}
+
+.pre-sale {
+    text-align: left;
+    position: absolute;
+    top: 438vh;
+    left: 3.669127516778524vw;
+    font-size: 2.08724832214765vw;
+    letter-spacing: 0.2684563758389262vw;
+    font-family: AcquireLight;
+    z-index: 500;
+}
+
+.pre-sale h1 {
+    letter-spacing: 0.8053691275167785vw;
+}
+
+.what {
+    position: absolute;
+    top: 486vh;
+    right: 1vw;
+    font-size: 1.569127516778524vw;
+    line-height: -2;
+    font-family: AcquireLight;
+    z-index: 500;
+    text-align: right;
+}
+.what h1 {
+    letter-spacing: 0.5369127516778524vw;
+    padding: 0 1.4641288433382138vw 0 0;
+}
+
+
+
+
+.aboutus p {
+    width: 50vw;
+    height: 27vh;
+    overflow: hidden;
+    color: #FFFDFA;
+    font-size: 1.529530201342282vw;
+    text-align: center;
+    font-family: Trench;
+    font-weight: 400;
+    padding: 2.8735632183908044vh 0 0 2.9282576866764276vw;
+    text-align: left;
+    border-left: 0.14641288433382138vw solid #ffffff;
+    background: rgba(0, 0, 0, 0.62);
+    border-radius: 1.171303074670571vw;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 0.14367816091954022vh 0 0.14367816091954022vh 0.07320644216691069vw solid rgba(0, 0, 0, 0.98);
+}
+
+.structure p {
+    width: 50vw;
+    height: 36vh;
+    overflow: hidden;
+    color: #FFFDFA;
+    font-size: 1.5610738255033555vw;
+    font-weight: 400;
+    text-align: right;
+    font-family: Trench;
+    padding: 1.8735632183908044vh 2.4641288433382138vw 0 1.4641288433382138vw;
+    border-right: 0.14641288433382138vw solid #ffffff;
+    text-align: right;
+    background: rgba(0, 0, 0, 0.62);
+    border-radius: 1.171303074670571vw;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 0.14367816091954022vh 0 0.14367816091954022vh 0.14367816091954022vh solid rgba(0, 0, 0, 0.98);
+}
+
+.supply p {
+    width: 50vw;
+    height: 17vh;
+    overflow: hidden;
+    color: #FFFDFA;
+    font-size: 2vw;
+    text-align: left;
+    font-family: Trench;
+    padding: 2.8735632183908044vh 0 0 2.9282576866764276vw;
+    font-weight: 400;
+    border-left: 0.14641288433382138vw solid #ffffff;
+    background: rgb(0, 0, 0, 0.1);
+    border-radius: 1.171303074670571vw;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.6px);
+    -webkit-backdrop-filter: blur(6.6px);
+    border: 0.14367816091954022vh 0 0.14367816091954022vh0.14367816091954022vh 0.14367816091954022vh solid rgba(0, 0, 0, 0.98);
+}
+
+b, strong {
+    font-family: AcquireBold;
+    color: rgb(0, 116, 248);
+}
+
+.mintprice p {
+    width: 50vw;
+    height: 13vh;
+    overflow: hidden;
+    color: #FFFDFA;
+    font-size: 1.5vw;
+    text-align: center;
+    letter-spacing: 0.40268456375838924vw;
+    font-family: Trench;
+    text-align: right;
+    font-weight: 400;
+    padding: 2.8735632183908044vh 1.4641288433382138vw 0 1.4641288433382138vw;
+    border-right: 0.14641288433382138vw solid #ffffff;
+    background: rgba(0, 0, 0, 0.62);
+    border-radius: 1.171303074670571vw;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 0.14367816091954022vh 0 0.14367816091954022vh 0.14367816091954022vh solid rgba(0, 0, 0, 0.98);
+}
+
+.pre-sale p {
+    width: 50vw;
+    height: 16vh;
+    overflow: hidden;
+    color: #FFFDFA;
+    font-size: 1.5vw;
+    text-align: left;
+    font-family: Trench;
+    font-weight: 400;
+    background-color: rgb(12, 12, 12);
+    padding: 2.8735632183908044vh 0 0 2.9282576866764276vw;
+    border-left: 0.14641288433382138vw solid #ffffff;
+    background: rgba(0, 0, 0, 0.62);
+    border-radius: 1.171303074670571vw;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 0.14367816091954022vh 0 0.14367816091954022vh 0.14367816091954022vh solid rgba(0, 0, 0, 0.98);
+}
+
+.what p {
+    width: 50vw;
+    height: var(52vh + 20px);
+    overflow: hidden;
+    color: #FFFDFA;
+    font-size: 1.5vw;
+    line-height: 1.5;
+    text-align: right;
+    margin: 0.7320644216691069vw;
+    font-weight: 400;
+    font-family: Trench;
+    padding: 2.8735632183908044vh 1.4641288433382138vw 3.160919540229885vh 1.4641288433382138vw;
+    border-right: 0.14641288433382138vw solid #ffffff;
+    background: rgba(0, 0, 0, 0.62);
+    border-radius: 1.171303074670571vw;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+    border: 0.14367816091954022vh 0 0.14367816091954022vh 0.14367816091954022vh solid rgba(0, 0, 0, 0.98);
+}
+
+footer {
+    background-color: black;
+    height: 56.83866057838661vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1.8301610541727673vw 0 1.0980966325036603vw;
+    font-size: 1.4641288433382138vw;
+    font-family: 'Trench', monospace;
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+footer div.FooterText {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: baseline;
+    /* outline: 2px solid red; */
+    width: 34vw;
+    padding: 15px;
+    /* margin: 10px; */
+}
+
+footer div.FooterText h1 {
+    font-size: 2.562225475841874vw;
+    font-weight: 1000;
+    font-family: Space;
+    text-transform: uppercase;
+    text-decoration: underline;
+    padding-bottom: 15px;
+}
+
+footer div.FooterText p {
+    font-family: Space;
+    font-size: 1.25vw;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    /* box-shadow: ; */
+}
+
+.aa{
+    word-spacing: 5px;
+}
+
+.ab{
+    word-spacing: 0.2px;
+}
+
+.ac{
+    word-spacing: 3px;
+}
+
+.ad{
+    word-spacing: 2px;
+}
+
+
+footer div ul {
+    font-weight: 500;
+    padding: 0 3.6603221083455346vw 0 3.6603221083455346vw;
+}
+
+footer div ul li {
+    list-style: none;
+    line-height: 2;
+    cursor: pointer;
+    font-size: 1.4641288433382138vw;
+    /* font-family: Poppins; */
+    border-bottom: 1px solid white;
+    }
+
+footer div ul li:hover {
+    color: #0071ce;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #0071ce;
+
+}
+
+@media (max-width: 500px) {
+
+    * {
+        overflow-x: hidden;
+    }
+    .image-bg {
+        height: 200vh;
+        width: 100vw;
+    }
+
+    .overlay {
+        display: none;
+    }
+
+    .logo img {
+        width: 60px;
+        height: 20px;
+        top: 28px;
+    }
+
+    .logo h1 {
+        font-size: 14px;
+        left: 40px;
+        top: 20px;
+    }
+
+    .header {
+        height: 10vh;
+        width: 100vw;
+    }
+
+    .herotext img {
+        top: 10vh;
+        height: 24vh;
+        width: 20vw;
+        outline: 2px solid r
+    }
+
+    .inventory {
+        width: 70px;
+        height: 40px;
+        /* right: 100px; */
+    }
+    .aboutus {
+        top: 45vh
+    }
+
+    .aboutus p {
+        padding: 10px 0 10px 10px;
+        height: 9vh;
+        font-size: 2vw;
+    }
+
+    .structure {
+        top: 70vh;
+    }
+
+    .structure p {
+        height: 12vh;
+        font-size: 2vw;
+        padding: 10px 10px 10px 0px;
+    }
+
+    .supply {
+        top: 100vh;
+    }
+
+    .supply p {
+        height: 4vh;
+        font-size: 2vw;
+        padding: 10px 0 0px 10px;
+    }
+
+    .mintprice {
+        top: 130vh;
+    }
+
+    .mintprice p {
+        height: 5vh;
+        font-size: 2vw;
+        padding: 10px 10px 10px 0px;
+    }
+
+    .pre-sale {
+        top: 155vh;
+    }
+
+    .pre-sale p {
+        height: 6vh;
+        font-size: 2vw;
+        padding: 10px 0 10px 10px;
+    }
+
+    .what {
+        top: 180vh;
+    }
+
+    .what p {
+        font-size: 2vw;
+        padding: 10px 10px 0px 0px;
+    }
+
+    footer {
+        font-size: 10px;
+        height: 40vh;
+    }}
