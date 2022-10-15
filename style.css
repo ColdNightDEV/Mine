@@ -391,17 +391,17 @@ footer div.FooterText {
 footer div.FooterText h1 {
     font-size: 2.562225475841874vw;
     font-weight: 1000;
-    font-family: Space;
+    font-family: 'Trench', monospace;
     text-transform: uppercase;
     text-decoration: underline;
     padding-bottom: 15px;
 }
 
 footer div.FooterText p {
-    font-family: 'Trench', monospace;
     font-size: 1.25vw;
     text-align: left;
     padding: 0;
+    font-family: Space;
     margin: 0;
     /* box-shadow: ; */
 }
