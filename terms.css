@@ -1,0 +1,92 @@
+@font-face {
+    font-family: Acquire;
+    src: url(./fonts/aquire/AquireLight-YzE0o.otf);
+}
+
+@font-face {
+    font-family: Trench;
+    src: url(./fonts/trench/trench100.ttf);
+}
+
+@font-face {
+    font-family: Space;
+    src: url(./fonts/space-grotesk.bold.otf);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* background-color: black; */
+    background-color: gray;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.bod {
+    margin: 30px;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bod p {
+    margin: 20px;
+    font-family: Space;
+    font-size: 15px;
+}
+
+.bod ol {
+    font-family: Space;
+    font-size: 15px;
+    font-weight: 100;
+    margin: 15px;
+}
+
+.bod h1 {
+    margin: 10px;
+    font-family: Space;
+}
+
+.bod span {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    padding: 10px 5px 20px 5px;
+    margin: 20px;
+    /* outline:  solid red; */
+}
+
+.header {
+    /* outline: 2px solid red; */
+    position: relative;
+    height: 15.4749262536873156vh;
+    width: 100vw;
+    top: 0.15220700152207vh;
+    z-index: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo h1 {
+    color: white;
+    position: absolute;
+    top: 1.4655172413793105vh;
+    left: 0.822516556291391vw;
+    font-size: 1.47505518763797vw;
+    font-family: 'Space Grotesk', sans-serif;
+    letter-spacing: 0.003679175864606328vw;
+    background-color: black;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    /* outline: 2px solid red; */
+}
+
+.logo h1:hover {
+    background-color: white;
+    color: black;
+}

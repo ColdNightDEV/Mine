@@ -33,6 +33,7 @@ body {
     overflow-x: hidden;
     color: white;
     text-decoration: none;
+    scroll-behavior: smooth;
     list-style: none;
 }
 
@@ -117,6 +118,49 @@ a {
 .bodyContainer {
     position: relative;
     z-index: 100;
+}
+
+.framer {
+    position: relative;
+    z-index: 100;
+    background-color: gray;
+}
+
+.framer iframe {
+    border-top: 2px solid black;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    top: 80px;
+}
+
+.framer.off {
+    display: none;
+}
+
+.framer .logo h1 {
+    color: white;
+    position: absolute;
+    top: -10px;
+    left: 0.822516556291391vw;
+    font-size: 1.47505518763797vw;
+    font-family: 'Space Grotesk', sans-serif;
+    letter-spacing: 0.003679175864606328vw;
+    background-color: black;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    /* outline: 2px solid red; */
+}
+
+.framer .logo h1:hover {
+    background-color: white;
+    color: black;
+}
+
+.bodyContainer.off {
+    display: none;
 }
 
 .herotext {
@@ -391,7 +435,7 @@ footer div.FooterText {
 footer div.FooterText h1 {
     font-size: 2.562225475841874vw;
     font-weight: 1000;
-    font-family: 'Trench', monospace;
+    font-family: Space;
     text-transform: uppercase;
     text-decoration: underline;
     padding-bottom: 15px;
@@ -401,7 +445,7 @@ footer div.FooterText p {
     font-size: 1.25vw;
     text-align: left;
     padding: 0;
-    font-family: Space;
+    font-family: 'Trench', monospace;
     margin: 0;
     /* box-shadow: ; */
 }
@@ -411,11 +455,11 @@ footer div.FooterText p {
 }
 
 .ab{
-    word-spacing: 0.2px;
+    word-spacing: 0.9px;
 }
 
 .ac{
-    word-spacing: 3px;
+    word-spacing: 3.8px;
 }
 
 .ad{
@@ -556,4 +600,6 @@ a:hover {
     footer {
         font-size: 10px;
         height: 40vh;
-    }}
+    }
+}
+

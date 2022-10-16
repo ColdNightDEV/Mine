@@ -16,6 +16,7 @@
 
 <body>
     <!-- Header -->
+    <div class="bodyContainer" id="bodd">
     <div class="header">
 
         <div class="logo">
@@ -31,7 +32,6 @@
     </div>
 
     <!-- Container Image -->
-    <div class="bodyContainer">
         <img class="image-bg" src="Images/Background.png" alt="Back">
 
         <div class="overlay"></div>
@@ -123,7 +123,13 @@
                     more.
             </p>
         </div>
-
+    </div>
+    <div class="framer off" id="fram">
+        <a name="top"></a>
+        <div class="logo">
+        <a href="#end"><h1 onclick="toogle()">Go Back</h1></a>
+        </div>
+        <iframe src="terms.html" frameborder="0"></iframe>
     </div>
 
     <footer>
@@ -133,13 +139,13 @@
             <p class="ab">We use NFTs, AR, and VR technology to bring the Virtual <br></p>
             <p class="ac">world to life through our integrated designs based in <br></p>
             <p class="ad">the metaverse, accessible from wherever you are. <br></p>
-        </div>
+            <a name="end"></a>
 
+        </div>
         <div>
             <ul>
                 <li><a href="https://vestige1.netlify.app/">Main Site</a></li>
-                <li>Terms</li>
-                <li>Policies</li>
+                <a href="#top"><li onclick="toogle()">Terms & Policies</li></a>
             </ul>
             <ul>
                 <li><a href="https://discord.gg/sJrvkdZ3kb" target="_blank">Discord</a></li>
@@ -157,5 +163,6 @@
         AOS.init();
     </script>
     <script src="./scripts/Gsap-anims.js"></script>
+    <script src="./scripts/toggle.js"></script>
 
 </body>
