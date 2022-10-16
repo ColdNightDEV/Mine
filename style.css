@@ -435,7 +435,7 @@ footer div.FooterText {
 footer div.FooterText h1 {
     font-size: 2.562225475841874vw;
     font-weight: 1000;
-    font-family: Space;
+    font-family: Trench;
     text-transform: uppercase;
     text-decoration: underline;
     padding-bottom: 15px;
@@ -445,7 +445,7 @@ footer div.FooterText p {
     font-size: 1.25vw;
     text-align: left;
     padding: 0;
-    font-family: 'Trench', monospace;
+    font-family: Space;
     margin: 0;
     /* box-shadow: ; */
 }
@@ -455,11 +455,11 @@ footer div.FooterText p {
 }
 
 .ab{
-    word-spacing: 0.9px;
+    word-spacing: 0.3px;
 }
 
 .ac{
-    word-spacing: 3.8px;
+    word-spacing: 3px;
 }
 
 .ad{
