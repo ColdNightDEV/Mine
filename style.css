@@ -32,6 +32,7 @@ body {
     box-sizing: border-box;
     overflow-x: hidden;
     color: white;
+    background-color: black;
     text-decoration: none;
     scroll-behavior: smooth;
     list-style: none;
@@ -123,7 +124,7 @@ a {
 .framer {
     position: relative;
     z-index: 100;
-    background-color: gray;
+    background-color: black;
 }
 
 .framer iframe {
@@ -131,7 +132,7 @@ a {
     width: 100vw;
     height: 100vh;
     position: relative;
-    top: 80px;
+    top: -10px;
 }
 
 .framer.off {
@@ -139,24 +140,33 @@ a {
 }
 
 .framer .logo h1 {
-    color: white;
-    position: absolute;
+    font-size:2vw;
+    position: relative;
+    padding: 15px;
+    color: #FFF;
+    border-radius: 50%;
+    border: 2px solid white;
     top: -10px;
-    left: 0.822516556291391vw;
-    font-size: 1.47505518763797vw;
-    font-family: 'Space Grotesk', sans-serif;
-    letter-spacing: 0.003679175864606328vw;
-    background-color: black;
-    margin: 20px;
-    padding: 20px;
+    left: 90vw;
+    width: 2vw;
+    height: 4vh;
     text-align: center;
-    cursor: pointer;
-    /* outline: 2px solid red; */
+    z-index: 1000;
 }
 
 .framer .logo h1:hover {
     background-color: white;
     color: black;
+}
+
+
+.framer .logo {
+    border-bottom: 2px solid #fff;
+    background-color: black;
+    position: relative;
+    height: 10vh;
+    width: 100vw;
+    z-index: 1000;
 }
 
 .bodyContainer.off {

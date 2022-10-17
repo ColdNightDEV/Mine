@@ -18,7 +18,8 @@ body {
     margin: 0;
     box-sizing: border-box;
     /* background-color: black; */
-    background-color: gray;
+    background-color: black;
+    color: white;
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
@@ -28,25 +29,27 @@ body {
     border: 2px solid black;
     padding: 10px;
     border-radius: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Trench
 }
 
 .bod p {
-    margin: 20px;
-    font-family: Space;
-    font-size: 15px;
+    margin: 40px;
+    font-family: Trench;
+    font-size: 25px;
 }
 
 .bod ol {
-    font-family: Space;
-    font-size: 15px;
+    font-family: Trench;
+    font-size: 25px;
     font-weight: 100;
-    margin: 15px;
+    margin: 45px;
 }
 
-.bod h1 {
-    margin: 10px;
-    font-family: Space;
+.bod h2 {
+    font-size: 40px;
+    text-decoration: underline;
+    margin: 15px;
+    font-family: Trench;
 }
 
 .bod span {
